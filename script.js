@@ -1,5 +1,5 @@
 //test
-function dingdongButton() {
+function dingDongButton() {
     const image = document.getElementById('dingimage');
       if (image.style.display === 'none') {
         image.style.display = 'block';
