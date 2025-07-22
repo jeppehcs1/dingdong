@@ -2,10 +2,10 @@ let lastImage = "";
 
 function dingDongButton() {
   const image = document.getElementById('dingimage');
-  const dingdongs = ["jake2.PNG", "rallemus.PNG", "rallemus2.png", "dingdong1.png", "dingdong2.jpg",
-                      "dingdong3.jpg","dingdong4.jpg","dingdong5.png","dingdong6.jpg","dingdong7.jpg",
-                      "dingdong8.png","dingdong9.png","dingdong10.png","dingdong11.png","dingdong12.png",
-                      "dingdong13.png","dingdong14.png","dingdong15.png"
+  const dingdongs = ["jake2.PNG", "rallemus.PNG", "rallemus2.png", "dingdong1.PNG", "dingdong2.jpg",
+                      "dingdong3.jpg","dingdong4.jpg","dingdong5.PNG","dingdong6.jpg","dingdong7.jpg",
+                      "dingdong8.PNG","dingdong9.PNG","dingdong10.PNG","dingdong11.PNG","dingdong12.PNG",
+                      "dingdong13.PNG","dingdong14.PNG","dingdong15.PNG"
   ];
 
   if (image.style.display === 'none' || image.style.display === '') {
