@@ -1,7 +1,15 @@
 #dingimage {
   display: none;
 }
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0; /* optional */
+  flex-direction: column; /* stack elements vertically */
+}
 .styled {
   border: 0;
   line-height: 2.5;
