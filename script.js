@@ -6,6 +6,6 @@ function dingDongButton() {
     image.style.display = 'block';
   } else {
     const src = "images/" + dingdongs[Math.floor(Math.random() * dingdongs.length())]
-    image.src = 'none';
+    image.src = src;
   }
 }
